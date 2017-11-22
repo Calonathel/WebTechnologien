@@ -18,7 +18,10 @@ export class SpeicherService {
                     this.imgPath + 'bart.jpeg',
                     '2003-12-24',
                     'Hollywood',
-                    'Sohn'
+                    'Sohn',
+                    // added username and password
+                    'Hugo',
+                    '123'
             );
             localStorage.setItem('daten', JSON.stringify(person));
             console.debug("SpeicherService.ladeDaten: localStorage empty, person = " + JSON.stringify(person));
